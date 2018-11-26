@@ -29,10 +29,10 @@ public class Test1 {
 
         //jdk8之前
         System.out.println("java 8 前");
-        for (User user: list
-                ) {
-            System.out.println(user.getId()+"--"+user.getUsername());
-
+        for (User user2: list
+             ) {
+            System.out.println(user2.getId());
+            
         }
         // java 8 lambda
         System.out.println("java 8 lambda");
